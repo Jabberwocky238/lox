@@ -1,0 +1,13 @@
+fun func1(a) {
+    var f1 = a;
+    fun func2(b) {       
+        f1 = f1 + b;
+        return f1;
+    }
+    return func2;
+}
+
+var func2 = func1(5);
+for(var i = 0;i < 3;i = i + 1) {
+    print func2(i);
+}

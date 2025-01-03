@@ -1,0 +1,9 @@
+[submodule "c-lox"]
+	path = c-lox
+	url = git@gitee.com:jabberwocky238/c-lox.git
+[submodule "java-lox"]
+	path = java-lox
+	url = git@gitee.com:jabberwocky238/java-lox.git
+[submodule "rust-lox"]
+	path = rust-lox
+	url = git@gitee.com:jabberwocky238/rust-lox.git

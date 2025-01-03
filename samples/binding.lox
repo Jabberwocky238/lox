@@ -1,0 +1,15 @@
+var b = 6;
+
+fun print_b() {
+    print b;
+}
+
+{
+    var a = 1000;
+    // 1.
+    print_b();
+
+    var b = 2000;
+    // 2.
+    print_b();
+}
